@@ -1,5 +1,5 @@
 # Inventario2021
-proyecto de inventarioCancel changes
+Configuración build.gradle -> Module
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
