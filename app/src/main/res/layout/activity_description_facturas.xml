@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.DescriptionFacturasActivity">
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Número de Factura:"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="15dp"
+        android:text="1"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed"/>-->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ventaCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Factura:"
+                android:textColor="@color/purple_700"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvIdFactura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="1"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Cliente:"
+                android:textColor="@color/purple_700"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Daniel Tene"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Fecha venta:"
+                android:textColor="@color/purple_700"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22/05/2021"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/teal_700"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Productos Facturados:"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/purple_700"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/tvTotalProductos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp"
+                android:layout_marginLeft="4dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutTotal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total venta:"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/purple_700"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp"
+                android:layout_marginLeft="4dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvFinal"
+        android:layout_marginTop="105dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:visibility="invisible"/>
+
+    <ir.androidexception.datatable.DataTable
+        android:id="@+id/data_table_factura"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        android:layout_below="@+id/tvFinal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:corner_radius="8dp"
+        app:direction="ltr"
+        app:header_background_color="#fff"
+        app:header_gravity="center"
+        app:header_horizontal_padding="0dp"
+        app:header_text_color="#000"
+        app:header_text_size="4sp"
+        app:header_vertical_padding="16dp"
+        app:persian_number="false"
+        app:row_background_color="#fff"
+        app:row_gravity="center"
+        app:row_text_color="#000"
+        app:row_text_size="4sp"
+        app:row_vertical_padding="16dp"
+        app:shadow="8dp" />
+
+
+
+
+</RelativeLayout>

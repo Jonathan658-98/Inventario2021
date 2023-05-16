@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_prodVendidos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="@color/white"
+    android:layout_marginTop="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ventaCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-black"
+                android:text="ATCV5874"
+                android:textColor="@color/purple_700"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-black"
+                android:text="1"
+                android:textColor="@color/superBar"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ventaDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playo GTX87"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#0051B3"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total vendidos:"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#0051B3"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/ventaCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp"
+                android:layout_marginLeft="162dp"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ventaFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22/05/2021"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

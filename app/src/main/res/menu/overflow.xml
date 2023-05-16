@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/imprimirInventario"
+        android:title="Imprimir inventario" />
+
+    <item android:id="@+id/prodRegistrados"
+        android:title="Productos registrados"/>
+
+    <item android:id="@+id/salir"
+        android:title="Salir">
+
+    </item>
+</menu>

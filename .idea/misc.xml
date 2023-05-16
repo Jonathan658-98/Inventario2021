@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/drawable/ic_add_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.253125" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/drawable/show_selected_background.xml" value="0.264" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_eliminar_productos.xml" value="0.264" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_factura.xml" value="0.4" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_imprimir.xml" value="0.264" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_items_seleccionados.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_lista_productos_recycler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_lista_productos_venta.xml" value="0.264" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/activity_lista_ventas.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/list_item_productos.xml" value="0.2" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/lista_items_venta.xml" value="0.264" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/selected_items_factura.xml" value="0.4" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/Inventario2021.2/app/src/main/res/layout/table_layout.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

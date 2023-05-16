@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.ImprimirActivity"
+    tools:ignore="MissingClass">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="STOCK DE PRODUCTOS"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="20dp"
+            android:text="0000/00/00"
+            android:textColor="@color/purple_700"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <ir.androidexception.datatable.DataTable
+            android:id="@+id/data_table"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/fecha"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:corner_radius="8dp"
+            app:direction="ltr"
+            app:header_background_color="#fff"
+            app:header_gravity="center"
+            app:header_horizontal_padding="0dp"
+            app:header_text_color="#000"
+            app:header_text_size="4sp"
+            app:header_vertical_padding="16dp"
+            app:persian_number="false"
+            app:row_background_color="#fff"
+            app:row_gravity="center"
+            app:row_text_color="#000"
+            app:row_text_size="4sp"
+            app:row_vertical_padding="16dp"
+            app:shadow="8dp" />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/prodVendidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="250dp"
+                    android:text="IMPRIMIR"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="PRODUCTOS VENDIDOS"
+                    android:textColor="@color/purple_700"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>-->
+
+
+        <!--<ir.androidexception.datatable.DataTable
+            android:id="@+id/data_table_dos"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/data_table"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:corner_radius="8dp"
+            app:direction="ltr"
+            app:header_background_color="#fff"
+            app:header_gravity="center"
+            app:header_horizontal_padding="0dp"
+            app:header_text_color="#000"
+            app:header_text_size="4sp"
+            app:header_vertical_padding="16dp"
+            app:persian_number="false"
+            app:row_background_color="#fff"
+            app:row_gravity="center"
+            app:row_text_color="#000"
+            app:row_text_size="4sp"
+            app:row_vertical_padding="16dp"
+            app:shadow="8dp" />-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data_table"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:text="IMPRIMIR" />
+
+</RelativeLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_marginTop="20dp"
+    tools:context=".DescriptionActivity">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:text="0"
+        android:visibility="invisible"
+        android:textColor="@color/purple_500"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/purple_700"/>
+    <EditText
+        android:id="@+id/et_Codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+        android:text="ACT6852"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Detalle"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/purple_700"/>
+    <EditText
+        android:id="@+id/et_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+        android:text="Destornillador Plano"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cantidad"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/purple_700"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_Cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginRight="200dp"
+                android:inputType="none"
+                android:text="12"
+                android:editable="false"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageAgregar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-100dp"
+                android:src="@drawable/ic_add_circle_24"
+                android:onClick="Agregar"/>
+
+            <ImageView
+                android:id="@+id/imageRestar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_remove_circle_24" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Valor"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/purple_700"/>
+
+    <EditText
+        android:id="@+id/et_Valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Proveedor"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/purple_700"/>
+    <EditText
+        android:id="@+id/et_Proveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total Productos Vendidos"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txtTotalProdVendidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Total Facturado"
+        android:textColor="@color/purple_700"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txtTotalDinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.05"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="18sp"/>
+
+
+
+
+
+</LinearLayout>

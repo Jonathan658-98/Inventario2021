@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#039be5</color>
+    <color name="purple_700">#006db3</color>
+    <color name="teal_200">#FF03DAC5</color>z
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorSplash">#000000</color>
+    <color name="actionBar">#0494CD</color>
+    <color name="actionBa2">#0176C3</color>
+    <color name="superBar">#025095</color>
+
+    <color name="colorPrimary">#41D3BD</color>
+    <color name="colorPrimaryDark">#41D3BD</color>
+    <color name="colorAccent">#FDA14F</color>
+    <color name="colorTextIcons">#FFFFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorRatingActive">#FDA14F</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+
+
+</resources>
